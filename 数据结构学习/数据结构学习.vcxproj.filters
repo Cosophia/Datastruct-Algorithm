@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\线性表">
+      <UniqueIdentifier>{c4710867-6a27-4d44-ade4-690fc1348406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\树结构">
+      <UniqueIdentifier>{db97a680-4514-42e0-aee1-1f30f418e972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图存储结构">
+      <UniqueIdentifier>{83579fdd-43b0-451d-ab9e-583b3864144d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\线性表\链表">
+      <UniqueIdentifier>{bb441dfd-e9b8-4fb7-8ef1-bb037cff1780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\线性表\链表\双链表">
+      <UniqueIdentifier>{1c3efbe2-d48e-46c7-95f2-a558d2c60896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\线性表\链表\单链表">
+      <UniqueIdentifier>{06078967-3945-4869-9133-608feef171a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\线性表\顺序表">
+      <UniqueIdentifier>{98a81e93-c1be-4e64-9347-e0365c2d72aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="单链表.c">
+      <Filter>源文件\线性表\链表\单链表</Filter>
+    </ClCompile>
+    <ClCompile Include="双链表.c">
+      <Filter>源文件\线性表\链表\双链表</Filter>
+    </ClCompile>
+    <ClCompile Include="循环单链表.c">
+      <Filter>源文件\线性表\链表\单链表</Filter>
+    </ClCompile>
+    <ClCompile Include="循环双链表.c">
+      <Filter>源文件\线性表\链表\双链表</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序表.c">
+      <Filter>源文件\线性表\顺序表</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
