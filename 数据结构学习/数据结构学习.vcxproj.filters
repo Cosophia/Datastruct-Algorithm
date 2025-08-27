@@ -34,6 +34,12 @@
     <Filter Include="源文件\线性表\顺序表">
       <UniqueIdentifier>{98a81e93-c1be-4e64-9347-e0365c2d72aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\线性表\栈">
+      <UniqueIdentifier>{2b5e02cd-9545-4373-8626-642d21fbf39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\线性表\队列">
+      <UniqueIdentifier>{de1954f8-b476-4438-b8a0-9f4c9babd8e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="单链表.c">
@@ -50,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="顺序表.c">
       <Filter>源文件\线性表\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序栈.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
