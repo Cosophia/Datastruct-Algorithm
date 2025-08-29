@@ -26,6 +26,7 @@
     <ClCompile Include="顺序栈.c" />
     <ClCompile Include="顺序表.c" />
     <ClCompile Include="单链表.c" />
+    <ClCompile Include="顺序队.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

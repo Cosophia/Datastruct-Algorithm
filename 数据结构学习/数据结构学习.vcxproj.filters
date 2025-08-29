@@ -63,5 +63,8 @@
     <ClCompile Include="链栈.c">
       <Filter>源文件\线性表\栈</Filter>
     </ClCompile>
+    <ClCompile Include="顺序队.c">
+      <Filter>源文件\线性表\队列</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
