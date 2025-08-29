@@ -23,6 +23,7 @@
     <ClCompile Include="循环单链表.c" />
     <ClCompile Include="循环双链表.c" />
     <ClCompile Include="链栈.c" />
+    <ClCompile Include="链队.c" />
     <ClCompile Include="顺序栈.c" />
     <ClCompile Include="顺序表.c" />
     <ClCompile Include="单链表.c" />
