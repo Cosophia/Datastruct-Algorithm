@@ -75,5 +75,11 @@
     <ClCompile Include="顺序串.c">
       <Filter>源文件\线性表\串</Filter>
     </ClCompile>
+    <ClCompile Include="简单模式匹配.c">
+      <Filter>源文件\线性表\串</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP匹配模式算法.c">
+      <Filter>源文件\线性表\串</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
