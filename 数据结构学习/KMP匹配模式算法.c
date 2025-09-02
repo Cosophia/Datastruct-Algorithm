@@ -40,7 +40,7 @@ int* get_next(HString M) {
 }
 
 void StrAssign(HString* T, char* chars) {
-	if (T->length != 0)
+	if (T->length > 0)
 	{
 		free(T->word);
 		T->word = NULL;
@@ -56,16 +56,48 @@ void StrAssign(HString* T, char* chars) {
 	}
 }
 
+int match(HString M, HString T, int* next) {//kmp match
+	int i = 0, j = 0;
+	int flag = 0;
+	while (i <= M.length && j <= T.length && flag < T.length)
+	{
+		if (M.word[i] == T.word[j])
+		{
+			flag += 1;
+			i++;
+			j++;
+		}
+		else
+		{
+			if (j == -1)
+			{
+				i = i - j + 1;
+				j = 0;
+			}
+			else j = next[j];
+		}
+	}
+	if (j > T.length || flag == T.length) {
+		printf("匹配成功!\n");
+		return i - T.length;
+	}
+	else return 0;
+}
+
 int main() {
-	HString str1;
+	HString str1, str2;
 	Initate(&str1);
-	StrAssign(&str1, "abaabc");
+	Initate(&str2);
+	StrAssign(&str1, "gollabcogoole");
+	StrAssign(&str2, "goole");
 	//printf("%d",str1.length);
-	int* next = get_next(str1);
+	int* next = get_next(str2);
 	printf("next数组为:\n");
-	for (int i = 0; i < str1.length; i++)
+	for (int i = 0; i < str2.length; i++)
 	{
 		printf("%d ", next[i] + 1);
 	}
+	printf("\n");
+	match(str1, str2, next);
 	return 1;
 }
