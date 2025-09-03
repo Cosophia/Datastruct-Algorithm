@@ -20,7 +20,12 @@ void Initate(HString* T) {
 }
 
 int* get_next(HString M) {
-	int* next = (int*)malloc((M.length) * sizeof(int));
+	int* next = (int*)malloc((M.length+1) * sizeof(int));
+	if (next==NULL)
+	{
+		printf("next ˝◊È∑÷≈‰ ß∞‹!");
+		return 0;
+	}
 	next[0] = -1;
 	int i = 0, j = -1;
 	while (i < M.length)
@@ -34,6 +39,7 @@ int* get_next(HString M) {
 		{
 			j = next[j];
 		}
+		next[M.length] = '\0';
 	}
 
 	return next;
@@ -71,7 +77,7 @@ int match(HString M, HString T, int* next) {//kmp match
 		{
 			if (j == -1)
 			{
-				i = i - j + 1;
+				i += 1;
 				j = 0;
 			}
 			else j = next[j];
