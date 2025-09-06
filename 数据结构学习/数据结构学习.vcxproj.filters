@@ -84,5 +84,8 @@
     <ClCompile Include="KMP匹配模式优化算法.c">
       <Filter>源文件\线性表\串</Filter>
     </ClCompile>
+    <ClCompile Include="二叉树链式存储.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
