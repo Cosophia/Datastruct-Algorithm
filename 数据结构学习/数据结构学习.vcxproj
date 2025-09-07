@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="KMP匹配模式优化算法.c" />
     <ClCompile Include="KMP匹配模式算法.c" />
+    <ClCompile Include="二叉树遍历.c" />
     <ClCompile Include="二叉树链式存储.c" />
     <ClCompile Include="双链表.c" />
     <ClCompile Include="循环单链表.c" />

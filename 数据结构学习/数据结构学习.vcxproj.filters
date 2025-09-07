@@ -85,7 +85,10 @@
       <Filter>源文件\线性表\串</Filter>
     </ClCompile>
     <ClCompile Include="二叉树链式存储.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\树结构</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树遍历.c">
+      <Filter>源文件\树结构</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
