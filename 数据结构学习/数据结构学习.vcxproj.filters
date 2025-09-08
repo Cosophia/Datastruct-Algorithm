@@ -90,5 +90,8 @@
     <ClCompile Include="二叉树遍历.c">
       <Filter>源文件\树结构</Filter>
     </ClCompile>
+    <ClCompile Include="二叉树层序遍历.c">
+      <Filter>源文件\树结构</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
