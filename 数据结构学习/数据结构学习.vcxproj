@@ -28,6 +28,7 @@
     <ClCompile Include="循环单链表.c" />
     <ClCompile Include="循环双链表.c" />
     <ClCompile Include="简单模式匹配.c" />
+    <ClCompile Include="线索二叉树.c" />
     <ClCompile Include="链栈.c" />
     <ClCompile Include="链队.c" />
     <ClCompile Include="顺序串.c" />
