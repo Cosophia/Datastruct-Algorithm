@@ -54,5 +54,17 @@ void Optimal_Union(ConFin_set* CFs, ConFin_set* set1, ConFin_set* set2) {
 	}
 }
 
+//并查集的查找的优化：
+ConFin_node super_optimal_Find(ConFin_set* CFs, ConFin_node x) {//压缩查找路径
+	ConFin_node root = x;
+	while (CFs->set[root.position].parent >= 0) root.position = CFs->set[root.position].parent;
+	while (x.data != root.data) {
+		int temp = CFs->set[x.position].parent;
+		CFs->set[x.position].parent = root.position;
+		x.position = temp;
+	}
+	return root;
+}
+
 
 
