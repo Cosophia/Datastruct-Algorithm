@@ -96,5 +96,11 @@
     <ClCompile Include="线索二叉树.c">
       <Filter>源文件\树结构</Filter>
     </ClCompile>
+    <ClCompile Include="树的存储结构.c">
+      <Filter>源文件\树结构</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集.c">
+      <Filter>源文件\树结构</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
